@@ -152,8 +152,13 @@ footer {
 .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
 	background-color: #DDD;
 }
-.fa-star {
+.badge {
 	color: rgb(90,58,176);
+	background: white;
+	border: #DDD 1px solid;
+}
+#title-badge {
+	font-size: 1em;
 }
 
 /*--------------------PHOTOS--------------------*/
