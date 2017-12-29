@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="sculleryIndex.css">
+	<link rel="stylesheet" type="text/css" href="sculleryStyles.css">
 </head>
 <body>
   <!-- NAVBAR -->
@@ -28,8 +28,8 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="home.html">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Members</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="members.html">Members</a></li>
           <li><a href="#">Photos</a></li>
           <li><a href="avocado.html">Avocado</a></li>
         </ul>
@@ -40,18 +40,25 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <!-- OTHER CONTENT -->
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div id="joinContent">
-          <div class="jumbotron">
-				    <h1>Placeholder</h1>
-          </div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <!-- JOIN COVER PHOTO -->
+  <div class="jumbotron container-fluid" id="join-cover-photo">
+    <h1>Join</h1>
+  </div>
+
+  <!-- JOIN DETAILS -->
+  <div class="container" id="join-details-container">
+    <div class="row" class="flex">
+      <div class="col-md-6">
+        <img src="https://source.unsplash.com/6gQjPGx1uQw" class="thumbnail img-responsive">
+      </div>
+      <div class="col-md-6">
+        <p>We’re so excited that you’re interested in joining the Scullery!</p>
+        <p>Please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAGkkQDAAN0q2jbLxcxv_4N97aXPWf6NF0lm29eNEMjz8frQ/viewform"><strong>our form</strong></a> or email Kara Bressler (karab@princeton.edu) to get on the waitlist.</p>
+        <p>We use a hybrid waitlist system. A first-in-first-out system is flawed in that it leaves students who learn about the co-op later in their college career in the dust. A random draw every semester gives no preference to students who show interest early on.</p>
+        <p>More details to follow.</p>
+      </div>
+    </div>
+  </div>
 
 <script
   src="http://code.jquery.com/jquery-3.2.1.js"

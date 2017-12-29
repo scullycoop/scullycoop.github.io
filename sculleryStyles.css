@@ -1,0 +1,214 @@
+body {
+	font-family: Lato;
+	color: black;
+}
+html {
+	height: 100%;
+}
+footer {
+	background: pink;
+	text-align: center;
+	align-items: bottom;
+}
+
+/*--------------------NAVBAR--------------------*/
+.navbar-inverse {
+	margin: 0;
+}
+/*Navbar text is white.*/
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+/*Text turns purple when hovered over.*/
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: rgb(90,58,176);
+}
+.navbar-inverse .navbar-brand:hover {
+	color: rgb(90,58,176);
+}
+/*Text stays purple when page is active.*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	color: rgb(90,58,176);
+}
+
+/*--------------------HOME--------------------*/
+#home-body {
+	background: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-size: cover;
+	background-position: center;
+}
+#home-jumbotron {
+	padding: 3px;
+	background: rgba(0,0,0,0.7);
+	width: 75%;
+	margin: auto;
+}
+#home-content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;
+}
+#home-header {
+	font-weight: 700;
+	font-size: 5em;
+	margin: 0;
+}
+#home-jumbotron>hr {
+	width: 50%;
+	border-top: rgb(90,58,176) 1px solid ;
+	border-bottom: rgba(0,0,0,0.2) 1px solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*--------------------ABOUT--------------------*/
+#about-cover-photo>h1 {
+	font-weight: 700;
+	color: white;
+	font-size: 4em;
+	margin: 0;
+	position: 0% 22.75%; 
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;/*rgb(90,58,176);*/
+}
+#about-cover-photo {
+	background: url(gingerbreadHouse.jpg);
+	background-size: cover;
+	background-position: 0% 50%;
+	margin: 0;
+	height: 200px;
+	display: flex;
+	justify-content: center; /* Align horizontal */
+	align-items: center; /* Align vertical */
+}
+#about-details-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*--------------------MEMBERS--------------------*/
+#members-cover-photo>h1 {
+	font-weight: 700;
+	color: white;
+	font-size: 4em;
+	margin: 0;
+	position: 0% 22.75%; 
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;/*rgb(90,58,176);*/
+}
+#members-cover-photo {
+	background: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-size: cover;
+	background-position: 0% 22.75%;
+	margin: 0;
+	height: 200px;
+	display: flex;
+	justify-content: center; /* Align horizontal */
+	align-items: center; /* Align vertical */
+}
+#members-featured-container {
+	margin-top: 10px;
+}
+#members-featured-container>hr {
+	border-top: rgb(90,58,176) 1px solid ;
+	border-bottom: rgba(0,0,0,0.2) 1px solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#members-tabs-container {
+	margin-bottom: 20px;
+}
+#members-tabs-container>hr {
+	border-top: rgb(90,58,176) 1px solid ;
+	border-bottom: rgba(0,0,0,0.2) 1px solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#members-tablist
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background-color: rgb(90,58,176);
+	color: white;
+}
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+	background-color: white;
+	color: rgb(90,58,176);
+	border: #DDD 1px solid;
+}
+.nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+	background-color: #DDD;
+}
+.fa-star {
+	color: rgb(90,58,176);
+}
+
+/*--------------------PHOTOS--------------------*/
+/*Nothing here right now.*/
+
+/*--------------------AVOCADO--------------------*/
+#avocado-cover-photo>h1 {
+	font-weight: 700;
+	color: white;
+	font-size: 4em;
+	margin: 0;
+	position: 0% 22.75%; 
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;/*rgb(90,58,176);*/
+}
+#avocado-cover-photo {
+	background: url(https://source.unsplash.com/nF46MLnZ8NI);
+	background-size: cover;
+	background-position: 0% 75%;
+	margin: 0;
+	height: 200px;
+	display: flex;
+	justify-content: center; /* Align horizontal */
+	align-items: center; /* Align vertical */
+}
+#avocado-codepen {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+/*--------------------JOIN--------------------*/
+#join-cover-photo>h1 {
+	font-weight: 700;
+	color: white;
+	font-size: 4em;
+	margin: 0;
+	position: 0% 22.75%; 
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;/*rgb(90,58,176);*/
+}
+#join-cover-photo {
+	background: url(https://www.princeton.edu/pr/pictures/l-r/neuropsych_buildings/Ellipse_Perspectivelg.jpg);
+	background-size: cover;
+	background-position: 0% 70%;
+	margin: 0;
+	height: 200px;
+	display: flex;
+	justify-content: center; /* Align horizontal */
+	align-items: center; /* Align vertical */
+}
+#join-details-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
