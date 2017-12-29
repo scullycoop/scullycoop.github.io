@@ -10,7 +10,30 @@ html {
 	height: 100%;
 }
 
-#indexContent {
+#homeContent {
+	font-size: 8px;
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;/*rgb(90,58,176);*/
+	border: white;
+}
+
+#avocadoContent {
+	font-size: 8px;
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;/*rgb(90,58,176);*/
+	border: white;
+}
+
+#joinContent {
+	font-size: 8px;
 	text-align: center;
 	padding-top: 25%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -27,7 +50,7 @@ h1 {
 }
 
 hr {
-	width: 400px;
+	width: 50%;
 	border-top: #F8F8F8 1px solid ;
 	border-bottom: rgba(0,0,0,0.2) 1px solid;
 	color: rgb(90,58,176);
@@ -50,7 +73,7 @@ hr {
 	padding: 3px;
 	background: rgba(0,0,0,0.7);
 	width: 75%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 /*AVOCADO SPECIFIC*/
