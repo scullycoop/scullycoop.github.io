@@ -43,7 +43,7 @@ footer {
 #home-jumbotron {
 	padding: 3px;
 	background: rgba(0,0,0,0.7);
-	width: 75%;
+	width: 85%;
 	margin: auto;
 }
 #home-content {
@@ -54,9 +54,9 @@ footer {
 				 0px 18px 23px rgba(0,0,0,0.1);
 	color: white;
 }
-#home-header {
+#home-jumbotron>h1 {
 	font-weight: 700;
-	font-size: 5em;
+	font-size: 4em;
 	margin: 0;
 }
 #home-jumbotron>hr {
@@ -66,7 +66,10 @@ footer {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
+#home-jumbotron>h3 {
+	margin: 0;
+	margin-bottom: 10px;
+}
 
 /*--------------------ABOUT--------------------*/
 #about-cover-photo>h1 {
@@ -81,9 +84,9 @@ footer {
 	color: white;/*rgb(90,58,176);*/
 }
 #about-cover-photo {
-	background: url(gingerbreadHouse.jpg);
+	background: url(https://source.unsplash.com/8xAA0f9yQnE);
 	background-size: cover;
-	background-position: 0% 50%;
+	background-position: 0% 35%;
 	margin: 0;
 	height: 200px;
 	display: flex;
@@ -214,8 +217,24 @@ footer {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.recipe {
-	
+.recipe>a>.caption>h3 {
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 0.8em;
+}
+.recipe>a>.caption>p {
+	margin: auto;
+}
+.recipe>a:hover {
+	text-decoration: none;
+	color: red;
+}
+.recipe>a>.caption:hover {
+	color: rgb(90,58,176);
+}
+.modal-title + p {
+	margin-bottom: 0;
 }
 
 /*--------------------AVOCADO--------------------*/
