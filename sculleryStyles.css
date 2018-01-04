@@ -44,7 +44,7 @@ footer {
 	height: 20%;
 	display: flex;
 }
-footer>div.container>div.row {
+footer>.container>.row {
 	text-align: center;
 	vertical-align: middle;
 	margin-top: 10px;
