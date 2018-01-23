@@ -5,6 +5,14 @@ body {
 html {
 	height: 100%;
 }
+.row.flex {
+    display: inline-flex;
+    width: 100%;
+}
+.flex {
+    display: flex;
+	flex-wrap: wrap;
+}
 iframe {
 	width: 100%;
 	height: 500px;
@@ -14,8 +22,6 @@ iframe {
 /*--------------------NAVBAR--------------------*/
 .navbar-inverse {
 	margin: 0;
-}
-.navbar-inverse {
 	border-radius: 0;
 }
 /*Navbar text is white.*/
@@ -39,7 +45,7 @@ iframe {
 
 /*--------------------FOOTER--------------------*/
 footer {
-	background: #222;
+	background-color: #222;
 	color: white;
 	height: 20%;
 	display: flex;
@@ -71,13 +77,13 @@ footer>.container>.row {
 
 /*--------------------HOME--------------------*/
 #home-body {
-	background: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
 	background-size: cover;
 	background-position: center;
 }
 #home-jumbotron {
 	padding: 3px;
-	background: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.7);
 	width: 85%;
 	margin: auto;
 }
@@ -119,7 +125,7 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #about-cover-photo {
-	background: url(https://source.unsplash.com/8xAA0f9yQnE);
+	background-image: url(https://source.unsplash.com/8xAA0f9yQnE);
 	background-size: cover;
 	background-position: 0% 35%;
 	margin: 0;
@@ -146,7 +152,7 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #members-cover-photo {
-	background: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
 	background-size: cover;
 	background-position: 0% 22.75%;
 	margin: 0;
@@ -192,7 +198,7 @@ footer>.container>.row {
 }
 .badge {
 	color: rgb(90,58,176);
-	background: white;
+	background-color: white;
 	border: #DDD 1px solid;	
 }
 #title-badge {
@@ -213,7 +219,7 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #photos-cover-photo {
-	background: url(https://source.unsplash.com/spAkZnUleVw);
+	background-image: url(https://source.unsplash.com/spAkZnUleVw);
 	background-size: cover;
 	background-position: 0% 75%;
 	margin: 0;
@@ -240,7 +246,7 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #recipes-cover-photo {
-	background: url(https://source.unsplash.com/HlNcigvUi4Q);
+	background-image: url(https://source.unsplash.com/HlNcigvUi4Q);
 	background-size: cover;
 	background-position: 0% 50%;
 	margin: 0;
@@ -286,7 +292,7 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #avocado-cover-photo {
-	background: url(https://source.unsplash.com/nF46MLnZ8NI);
+	background-image: url(https://source.unsplash.com/nF46MLnZ8NI);
 	background-size: cover;
 	background-position: 0% 75%;
 	margin: 0;
@@ -313,7 +319,7 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #join-cover-photo {
-	background: url(https://www.princeton.edu/pr/pictures/l-r/neuropsych_buildings/Ellipse_Perspectivelg.jpg);
+	background-image: url(https://www.princeton.edu/pr/pictures/l-r/neuropsych_buildings/Ellipse_Perspectivelg.jpg);
 	background-size: cover;
 	background-position: 0% 70%;
 	margin: 0;
