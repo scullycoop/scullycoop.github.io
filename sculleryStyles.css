@@ -216,7 +216,7 @@ footer>.container>.row {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
-	color: white;/*rgb(90,58,176);*/
+	color: white; /*rgb(90,58,176);*/
 }
 #photos-cover-photo {
 	background-image: url(https://source.unsplash.com/spAkZnUleVw);
@@ -249,17 +249,16 @@ footer>.container>.row {
 	height: auto;
 	display: inline-block;
 	color: #424242;
-	box-shadow: 0 1px 3px rgba(209, 149, 149, 0.12), 0 1px 2px rgba(0,0,0, .24);
+	box-shadow: 0 1px 3px rgba(209,149,149,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	border-radius: 2px;
 	padding: 0.4rem;
 	margin-bottom: 1rem;
-	transition: all 1s cubic-bezier(0.25, .8, .25, 1); /*Pretty*/
-}
-#photos-details-container:hover img:not(:hover) { 
-	opacity: 0.9; /*Pretty*/
+	transition: 0.7s cubic-bezier(0.25, .8, .25, 1);
 }
 #photos-details-container img:hover {
-	box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .20); /*Pretty*/
+	box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .20);
+	border-radius: 0;
+	padding: 0;
 }
 
 /*--------------------RECIPES--------------------*/
