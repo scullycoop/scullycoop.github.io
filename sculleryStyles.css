@@ -122,7 +122,7 @@ footer>.container>.row {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
-	color: white;/*rgb(90,58,176);*/
+	color: white; /*rgb(90,58,176);*/
 }
 #about-cover-photo {
 	background-image: url(https://source.unsplash.com/8xAA0f9yQnE);
@@ -149,7 +149,7 @@ footer>.container>.row {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
-	color: white;/*rgb(90,58,176);*/
+	color: white; /*rgb(90,58,176);*/
 }
 #members-cover-photo {
 	background-image: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
@@ -271,7 +271,7 @@ footer>.container>.row {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
-	color: white;/*rgb(90,58,176);*/
+	color: white; /*rgb(90,58,176);*/
 }
 #recipes-cover-photo {
 	background-image: url(https://source.unsplash.com/HlNcigvUi4Q);
