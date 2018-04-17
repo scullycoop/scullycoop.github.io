@@ -7,8 +7,8 @@
 
 ## Details
 
-This is the webpage for the Scullery, food cooperative at Princeton University.
+This is the webpage for the Scullery Food Co-op at Princeton University.
 
 ## Try
 
-<a href="https://davidpwu.github.io/scullery">https://davidpwu.github.io/scullery</a>
+<a href="https://princetonscullery.github.io/scullery/">https://princetonscullery.github.io/scullery/</a>
