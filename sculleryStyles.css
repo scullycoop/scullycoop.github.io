@@ -18,7 +18,7 @@ html {
 .navbar-brand>img {
 	float: left;
 	height: 100%;
-	width: 30px;
+	padding-right: 4px;
 }
 
 .navbar-inverse {
