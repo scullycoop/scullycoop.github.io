@@ -1,4 +1,4 @@
-# Scullery Webpage
+# Scully Co-op Webpage
 
 ## Table of Contents
 
@@ -7,7 +7,7 @@
 
 ## Details
 
-This is the webpage for the Scullery Food Co-op at Princeton University.
+This is the webpage for Scully Co-op at Princeton University.
 
 ## Try
 
