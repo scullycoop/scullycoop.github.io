@@ -11,4 +11,4 @@ This is the webpage for Scully Co-op at Princeton University.
 
 ## Try
 
-<a href="https://princetonscullery.github.io/scullery/">https://princetonscullery.github.io/scullery/</a>
+<a href="http://www.scullycoop.com">http://www.scullycoop.com</a>
