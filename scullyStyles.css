@@ -17,7 +17,8 @@ html {
 /*--------------------NAVBAR--------------------*/
 .navbar-brand>img {
 	float: left;
-	height: 100%;
+	/* Temporarily remove logo */
+	height: 0%; 
 	padding-right: 4px;
 }
 
