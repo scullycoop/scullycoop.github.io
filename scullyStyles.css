@@ -127,7 +127,7 @@ footer>.container>.row {
 	color: white; /*rgb(90,58,176);*/
 }
 #about-cover-photo {
-	background-image: url(https://source.unsplash.com/8xAA0f9yQnE);
+	background-image: url(static/aboutCoverPhoto.jpg);
 	background-size: cover;
 	background-position: 0% 35%;
 	margin: 0;
@@ -221,7 +221,7 @@ footer>.container>.row {
 	color: white; /*rgb(90,58,176);*/
 }
 #photos-cover-photo {
-	background-image: url(https://source.unsplash.com/spAkZnUleVw);
+	background-image: url(static/photosCoverPhoto.jpg);
 	background-size: cover;
 	background-position: 0% 75%;
 	margin: 0;
@@ -229,6 +229,19 @@ footer>.container>.row {
 	display: flex;
 	justify-content: center; /* Align horizontal */
 	align-items: center; /* Align vertical */
+}
+#facebook-photos-button {
+	display: block;
+	margin-top: 20px;
+	border-radius: 0px;
+	background-color: rgb(59, 89, 152);
+	transition: 0.1s cubic-bezier(0.25, .8, .25, 1);
+}
+#facebook-photos-button:hover {
+	display: block;
+	margin-top: 20px;
+	border-radius: 0px;
+	background-color: rgb(29, 59, 122);
 }
 #photos-details-container {
 	margin-top: 20px;
@@ -276,7 +289,7 @@ footer>.container>.row {
 	color: white; /*rgb(90,58,176);*/
 }
 #recipes-cover-photo {
-	background-image: url(https://source.unsplash.com/HlNcigvUi4Q);
+	background-image: url(static/recipesCoverPhoto.jpg);
 	background-size: cover;
 	background-position: 0% 50%;
 	margin: 0;
@@ -322,7 +335,7 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #avocado-cover-photo {
-	background-image: url(https://source.unsplash.com/nF46MLnZ8NI);
+	background-image: url(static/avocadoCoverPhoto.jpg);
 	background-size: cover;
 	background-position: 0% 75%;
 	margin: 0;
@@ -350,7 +363,7 @@ footer>.container>.row {
 }
 #join-cover-photo {
 	/* background-image: url(https://www.princeton.edu/pr/pictures/l-r/neuropsych_buildings/Ellipse_Perspectivelg.jpg); */
-	background-image: url("static/joinCoverPhotoCompressed.jpg");
+	background-image: url(static/joinCoverPhoto.jpg);
 	background-size: cover;
 	background-position: 0% 70%;
 	margin: 0;
