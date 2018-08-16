@@ -79,7 +79,7 @@ footer>.container>.row {
 
 /*--------------------HOME--------------------*/
 #home-body {
-	background-image: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(static/sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
 	background-size: cover;
 	background-position: center;
 }
@@ -104,7 +104,7 @@ footer>.container>.row {
 }
 #home-jumbotron>hr {
 	width: 50%;
-	border-top: rgb(90,58,176) 1px solid ;
+	border-top: rgb(90,58,176) 1px solid;
 	border-bottom: rgba(0,0,0,0.2) 1px solid;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -154,7 +154,7 @@ footer>.container>.row {
 	color: white; /*rgb(90,58,176);*/
 }
 #members-cover-photo {
-	background-image: url(sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(static/sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
 	background-size: cover;
 	background-position: 0% 22.75%;
 	margin: 0;
@@ -349,7 +349,8 @@ footer>.container>.row {
 	color: white;/*rgb(90,58,176);*/
 }
 #join-cover-photo {
-	background-image: url(https://www.princeton.edu/pr/pictures/l-r/neuropsych_buildings/Ellipse_Perspectivelg.jpg);
+	/* background-image: url(https://www.princeton.edu/pr/pictures/l-r/neuropsych_buildings/Ellipse_Perspectivelg.jpg); */
+	background-image: url("static/joinCoverPhotoCompressed.jpg");
 	background-size: cover;
 	background-position: 0% 70%;
 	margin: 0;
@@ -361,4 +362,10 @@ footer>.container>.row {
 #join-details-container {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+#waitlist {
+	display: block;
+	margin: 0 auto;
+	border: black 2px solid;
 }
