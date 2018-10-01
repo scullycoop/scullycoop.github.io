@@ -113,6 +113,20 @@ footer>.container>.row {
 	margin: 0;
 	margin-bottom: 10px;
 }
+#home-button {
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: white 1px solid;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+	background-color: rgb(90,58,176);
+	transition: 0.5s cubic-bezier(0.25, .8, .25, 1);
+}
+
+#home-button:hover {
+	margin-bottom: 10px;
+	background-color: white;
+	color: rgb(90,58,176);
+}
 
 /*--------------------ABOUT--------------------*/
 #about-cover-photo>h1 {
