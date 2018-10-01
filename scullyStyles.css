@@ -79,7 +79,7 @@ footer>.container>.row {
 
 /*--------------------HOME--------------------*/
 #home-body {
-	background-image: url(static/sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(static/scullyLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
 	background-size: cover;
 	background-position: center;
 }
@@ -168,7 +168,7 @@ footer>.container>.row {
 	color: white; /*rgb(90,58,176);*/
 }
 #members-cover-photo {
-	background-image: url(static/sculleryLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(static/membersCoverPhoto.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
 	background-size: cover;
 	background-position: 0% 22.75%;
 	margin: 0;
