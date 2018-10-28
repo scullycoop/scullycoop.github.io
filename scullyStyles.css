@@ -222,6 +222,12 @@ footer>.container>.row {
 	font-size: 1em;
 	vertical-align: 0;
 }
+#scalleycatsfall2018-container {
+	text-align: center;
+}
+#scalleycatsfall2018-container>a>img {
+	border: black 1px solid;
+}
 
 /*--------------------PHOTOS--------------------*/
 #photos-cover-photo>h1 {
