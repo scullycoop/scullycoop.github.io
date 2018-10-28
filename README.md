@@ -7,7 +7,7 @@
 
 ## Details
 
-This is the webpage for Scully Co-op at Princeton University.
+This is the webpage for Scully Co-op at Princeton University. Created with HTML / CSS / Bootstrap by David Wu '19.
 
 ## Try
 
