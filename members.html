@@ -2,46 +2,52 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/png" href="static/favicon-32x32.png">
   <title>Members | Scully Co-op</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="scullyStyles.css">
 </head>
 <body>
+  
   <!-- NAVBAR -->
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html"><img src="static/logo.png" class="img-responsive" alt="logo"> Scully Co-op</a>
-      </div>
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <a class="navbar-brand" href="index.html">Scully Co-op</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Members <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photos.html">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="avocado.html">Avocado</a>
+        </li>
+      </ul>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="active"><a href="#">Members</a></li>
-          <li><a href="photos.html">Photos</a></li>
-          <li><a href="recipes.html">Recipes</a></li>
-          <li><a href="avocado.html">Avocado</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="join.html">Join <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="join.html">Join <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
   </nav>
-
+  
   <!-- MEMBERS COVER PHOTO -->
   <div class="jumbotron container-fluid" id="members-cover-photo">
     <h1>Members</h1>
@@ -49,14 +55,14 @@
 
   <!-- MEMBERS FEATURED -->
   <div class="container" id="members-featured-container">
-    <h3><span class="badge" id="title-badge">Featured</span> Member: Shirley Klimkiewicz</h3>
+    <h3><span class="badge" id="title-badge">Featured</span> Member: Lauren Ehehalt</h3>
     <hr>
     <div class="row" class="flex">
-      <div class="col-md-2">
-        <img src="static/shirley.PNG" class="img-thumbnail img-responsive" alt="featured member image">
+      <div class="col-md-4">
+        <img src="static/lauren.jpg" class="img-thumbnail img-fluid" alt="featured member image">
       </div>
-      <div class="col-md-10">
-        <p>I am a crazy cat lady but like also a social person who lives a non-crazy life. My favorite hobbies include watching Netflix when I should be doing my readings, playing with my three cats at home when I should be doing my psets, and cooking fancy lunches in the co-op when I should be studying. My only dream is to never have to walk outside in the cold to do laundry ever again after I graduate.</p>
+      <div class="col-md-8">
+        <p>Lauren is a junior from Michigan in the chemistry department with a certificate in planets and life. When she's not in a chemistry article reading frenzy or desperately working on core lab psets in the co-op until obscenely late hours, she can be found playing taiko with Tora Taiko, working as Student House Manager at Richardson Auditorium, or setting stuff on fire (safely!) with the chemical society. Her life goals include helping to create a medicine to fix her mosquito allergy and to curate the perfect 80s rock playlist.</p>
       </div>
     </div>
   </div>
@@ -67,19 +73,37 @@
     <hr>
     <p>We'd love for you to <strong><a href="join.html">join us</a></strong>!</p>
     <!-- NAV TABS -->
-    <ul class="nav nav-tabs nav-justified" role="tablist" id="members-tablist">
-      <li role="presentation" class="active"><a href="#fall2018" aria-controls="fall2018" role="tab" data-toggle="tab"><strong>Fall 2018</strong></a></li>
-      <li role="presentation"><a href="#spring2018" aria-controls="spring2018" role="tab" data-toggle="tab"><strong>Spring 2018</strong></a></li>
-      <li role="presentation"><a href="#fall2017" aria-controls="fall2017" role="tab" data-toggle="tab"><strong>Fall 2017</strong></a></li>
+    <ul class="nav nav-tabs justify-content-center flex-md-row flex-column" role="tablist" id="members-tablist">
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#spring2019" role="tab" aria-controls="spring2019" aria-selected="false"><strong>Spring 2019</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#fall2018" role="tab" aria-controls="fall2018" aria-selected="true"><strong>Fall 2018</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#spring2018" role="tab" aria-controls="spring2018" aria-selected="false"><strong>Spring 2018</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#fall2017" role="tab" aria-controls="fall2017" aria-selected="false"><strong>Fall 2017</strong></a>
+      </li>
     </ul>
 
     <!-- TAB PANES -->
     <div class="tab-content">
 
-      <!-- Fall 2018 -->
-      <ul role="tabpanel" class="tab-pane active" id="fall2018">
+      <!-- Spring 2019 -->
+      <div class="tab-pane" id="spring2019" role="tabpanel" aria-labelledby="spring2019-tab">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-md">
+            <li>Coming soon.</li>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fall 2018 -->
+      <div class="tab-pane show active" id="fall2018" role="tabpanel" aria-labelledby="fall2018-tab">
+        <div class="row">
+          <div class="col-md">
             <li>Alma Huselja '19</li>
             <li>Ariel Chen '20</li>
             <li>Armaan Valvi '20</li>
@@ -93,7 +117,7 @@
             <li>Emily Geyman '19</li>
             <li>Gabriela Pitten '19</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Greta Miller '19</li>
             <li>Handa Chun '20</li>
             <li>Hayoung Park '20</li>
@@ -102,12 +126,12 @@
             <li>Jane Sul '20</li>
             <li>Jenny Kaufmann '19</li>
             <li>Kara Bressler '19</li>
-            <li>Lauren Ehehalt '20</li>
+            <li>Lauren Ehehalt '20 <span class="badge">Featured</span></li>
             <li>Laurie Zielinski '20</li>
             <li>Lilly Quach '19</li>
             <li>Linh Tran '20</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Luqman Issah '20</li>
             <li>Mashad Arora '20</li>
             <li>Michael Tummarello '19</li>
@@ -121,10 +145,10 @@
             <li>Sarah Varghese '19</li>
             <li>Sarah Schneider '20</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Sebastian Holt '19</li>
             <li>Serena Mon '20</li>
-            <li>Shirley Klimkiewicz '20 <span class="badge">Featured</span></li>
+            <li>Shirley Klimkiewicz '20</li>
             <li>Shiye Su '20</li>
             <li>SiSi Peng '19</li>
             <li>Sunny Qin '19</li>
@@ -132,17 +156,17 @@
           </div>
         </div>
         <div class="row flex">
-          <div id="scalleycatsfall2018-container" class="container">
-            <a href="https://scullycoop.github.io/scalleycatsfall2018/"><img src="static/scalleyCatsFall2018.png" alt="scalleycatsfall2018" class="img-responsive"></a>
-            <p>This is a members directory of the Fall 2018 members of Scully Co-op. You can search for members by name or birthday, sort by name or birthday, and look at beautiful, unique cats. (<a href="https://scullycoop.github.io/scalleycatsfall2018/">https://scullycoop.github.io/scalleycatsfall2018/</a>)</p>
+          <div id="scalleycats-container" class="container">
+            <a href="https://scullycoop.github.io/scalleycats/"><img src="static/scAlleyCats.png" alt="scalleycats" class="img-fluid"></a>
+            <p>This is a members directory of the Fall 2018 and Spring 2019 members of Scully Co-op. You can search for members by name or birthday, sort by name or birthday, and look at beautiful, unique cats. (<a href="https://scullycoop.github.io/scalleycats/">https://scullycoop.github.io/scalleycats/</a>)</p>
           </div>
         </div>
-      </ul>
+      </div>
 
       <!-- Spring 2018 -->
-      <ul role="tabpanel" class="tab-pane" id="spring2018">
+      <div class="tab-pane" id="spring2018" role="tabpanel" aria-labelledby="spring2018-tab">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Aana Bansal '18</li>
             <li>Ailyn Brizo '18</li>
             <li>Anya Hargil '19</li>
@@ -154,7 +178,7 @@
             <li>David Wu '19</li>
             <li>Debopriyo Biswas '19</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Diego Fierros '19</li>
             <li>Douglas Diehl '18</li>
             <li>Ellie Maag '19</li>
@@ -166,7 +190,7 @@
             <li>Kara Bressler '19</li>
             <li>Kat Trout '19</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Ada Nguyen '18</li>
             <li>SiSi Peng '19</li>
             <li>Sunny Qin '19</li>
@@ -178,7 +202,7 @@
             <li>Sadie Van Vranken '19</li>
             <li>Sara Fridovich-Keil '18</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Sarah Varghese '19</li>
             <li>Sebastian Holt '19</li>
             <li>Tom Stanley-Becker GS</li>
@@ -187,12 +211,12 @@
             <li>William Simon '19</li>
           </div>
         </div>
-      </ul>
+      </div>
 
       <!-- Fall 2017 -->
-      <ul role="tabpanel" class="tab-pane" id="fall2017">
+      <div class="tab-pane" id="fall2017" role="tabpanel" aria-labelledby="fall2017-tab">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Aana Bansal '18</li>
             <li>Ailyn Brizo '18</li>
             <li>Alma Huselja '19</li>
@@ -204,7 +228,7 @@
             <li>Demi Zhang '19</li>
             <li>Diego Fierros '19</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Douglas Diehl '18</li>
             <li>Gabrielle Chen '18</li>
             <li>Greta Miller '19</li>
@@ -216,7 +240,7 @@
             <li>Kara Bressler '19</li>
             <li>Lilly Quach '19</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Ada Nguyen '18</li>
             <li>SiSi Peng '19</li>
             <li>Sunny Qin '19</li>
@@ -228,7 +252,7 @@
             <li>Pranaya Anshu '19</li>
             <li>Ruting Li '19</li>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md">
             <li>Sara Fridovich-Keil '18</li>
             <li>Sarah Varghese '19</li>
             <li>Sebastian Holt '19</li>
@@ -238,7 +262,7 @@
             <li>William Simon '19</li>
           </div>
         </div>
-      </ul>
+      </div>
     </div>
   </div>
 
@@ -248,7 +272,7 @@
       <div class="row">
         <div class="copyright col-sm-9">
           <p>
-            &copy 2018 Scully Co-op. All rights reserved. Website by David Wu '19.
+            &copy 2019 Scully Co-op. Website by David Wu '19.
           </p>
         </div>
         <div class="icons col-sm-3">
@@ -259,7 +283,8 @@
     </div>
   </footer>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>

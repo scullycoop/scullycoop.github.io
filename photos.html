@@ -2,45 +2,52 @@
 <html lang="en-US">
 <head>
 	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  	<link rel="icon" type="image/png" href="static/favicon-32x32.png">
 	<title>Photos | Scully Co-op</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="scullyStyles.css">
 </head>
 <body>
-	<!-- NAVBAR -->
-	<nav class="navbar navbar-inverse">
-    	<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="static/logo.png" class="img-responsive" alt="logo"> Scully Co-op</a>
-			</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="members.html">Members</a></li>
-				<li class="active"><a href="#">Photos</a></li>
-				<li><a href="recipes.html">Recipes</a></li>
-				<li><a href="avocado.html">Avocado</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-				<li><a href="join.html">Join <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-  	</nav>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <a class="navbar-brand" href="index.html">Scully Co-op</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="members.html">Members</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Photos <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="avocado.html">Avocado</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="join.html">Join <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
 
 	<!-- PHOTOS COVER PHOTO -->
 	<div class="jumbotron container-fluid" id="photos-cover-photo">
@@ -49,50 +56,52 @@
 
 	<!-- PHOTOS DETAILS -->
 	<div class="container">
-		<a href="https://www.facebook.com/pg/scullycoop/photos/" class="btn btn-primary" id="facebook-photos-button"><i class="fa fa-facebook-official" style="margin-right: 5px;" aria-hidden="true"></i> See our Facebook Page for more photos.</a>
+    <a href="https://www.facebook.com/pg/scullycoop/photos/" class="btn btn-primary" id="facebook-photos-button"><i class="fa fa-facebook-official" style="margin-right: 5px;" aria-hidden="true"></i> See our Facebook page for more photos.</a>
+    <a href="https://www.instagram.com/scullycoop/" class="btn btn-primary" id="instagram-photos-button"><i class="fa fa-instagram" style="margin-right: 5px;" aria-hidden="true"></i> See our Instagram page for more photos.</a>
 	</div>
 	<div class="container" id="photos-details-container">
-		<img src="https://dl.dropboxusercontent.com/s/iisiushv2y6ypl1/39432846012_32af92ed43_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/71j58ic588cytxb/gingerbreadHouse.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/v47eq3if8s4rrqj/24596670347_de15f52e27_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/jf642xdnf58zkvx/24596518117_75be49e963_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/i36erts7pdhwpbl/24596635177_ccedacd165_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<!-- <img src="https://dl.dropboxusercontent.com/s/1x09goh2dv0u8ko/24596668357_4780931d8a_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/mr7vodjelp9b7nt/24596673637_c822e32223_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/53c8rquxwt2jkfz/25593117568_dddabac5c9_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/xc8tu79wdkokpi0/25593136458_ab11dcdbea_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/zy6zq0hc8xtzc4m/27685869869_d1f1f3f8c5_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/qpijilfsjtk0ly3/27685896039_a7a990a4f9_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/l91e707x2o0x0gg/27685847149_2fdc8845a8_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/cucj5dumo4cy39q/27685866959_a39f9d3b34_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/mhjwuo8wuqvi0l4/27685897319_19477d9747_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/ffq612u0e1qs00c/27685870979_f49d5cb064_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/u2pq0mg28493962/27685889049_054b16aa2d_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/jo64rdaqiy0zuto/27685898229_1f3e87a008_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/22070p4hfwoscqx/39432852102_c90fc7093d_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/5tcyeawoyhzpmav/39463993991_26b50f9b01_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/whw4wzd9r00jf2k/27685978119_c2c1334ea1_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/q8007vby28bz9ky/39463608731_ecf7c787e1_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/4whf454drce8acn/39463611551_a597367856_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/128t152t0p33f1q/39463530811_ccf54800b5_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/q3pb4tcdxrfumbq/39463525601_02851e7af9_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/73c77sqpjcxub3z/39433299562_a177a640ce_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/1b7j65567z979nh/39463531931_68210a5b26_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/evi78r3pph4pll2/39433298862_7c8c00893e_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/bt0a3imocr502g0/38584596215_9322afee9e_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/mj9qgsikpckrigd/38754979354_df6df95321_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/ncbsx93wkybx8la/38754910304_aef69fe21d_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/qu6umndhsv91l0w/39432837942_3ced1764ba_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/j9mv7fdhfjykwau/38584896085_902c7fc57b_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/p4z9axbzsiwwhi0/38584595395_372c627a86_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/gbhee3uuz2s909u/27685993839_044ceb0e34_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/b7xzq4quvm8l57c/27686043379_780e27201d_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/m7y6cxuf6wsvzi3/38584590415_7294290a0d_o.jpg?dl=0" class="img-responsive" alt="photo"> -->
-		<img src="https://dl.dropboxusercontent.com/s/pi9yrlk2sinl5ec/38754908784_78b8a11b71_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/9wv8kuwgrd8aycl/38754909604_07e3e4c3ea_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/jijt2i1iue0f143/39433304742_7840311d5a_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/nz1fhe3aedr9suz/39463532511_2a68043fb1_o.jpg?dl=0" class="img-responsive" alt="photo">
-		<img src="https://dl.dropboxusercontent.com/s/40uzoxlxx89x2hj/39432895292_69a535f7c7_o.jpg?dl=0" class="img-responsive" alt="photo">
+    <!-- Update later -->
+		<img src="https://dl.dropboxusercontent.com/s/iisiushv2y6ypl1/39432846012_32af92ed43_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/71j58ic588cytxb/gingerbreadHouse.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/v47eq3if8s4rrqj/24596670347_de15f52e27_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/jf642xdnf58zkvx/24596518117_75be49e963_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/i36erts7pdhwpbl/24596635177_ccedacd165_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<!-- <img src="https://dl.dropboxusercontent.com/s/1x09goh2dv0u8ko/24596668357_4780931d8a_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/mr7vodjelp9b7nt/24596673637_c822e32223_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/53c8rquxwt2jkfz/25593117568_dddabac5c9_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/xc8tu79wdkokpi0/25593136458_ab11dcdbea_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/zy6zq0hc8xtzc4m/27685869869_d1f1f3f8c5_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/qpijilfsjtk0ly3/27685896039_a7a990a4f9_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/l91e707x2o0x0gg/27685847149_2fdc8845a8_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/cucj5dumo4cy39q/27685866959_a39f9d3b34_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/mhjwuo8wuqvi0l4/27685897319_19477d9747_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/ffq612u0e1qs00c/27685870979_f49d5cb064_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/u2pq0mg28493962/27685889049_054b16aa2d_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/jo64rdaqiy0zuto/27685898229_1f3e87a008_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/22070p4hfwoscqx/39432852102_c90fc7093d_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/5tcyeawoyhzpmav/39463993991_26b50f9b01_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/whw4wzd9r00jf2k/27685978119_c2c1334ea1_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/q8007vby28bz9ky/39463608731_ecf7c787e1_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/4whf454drce8acn/39463611551_a597367856_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/128t152t0p33f1q/39463530811_ccf54800b5_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/q3pb4tcdxrfumbq/39463525601_02851e7af9_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/73c77sqpjcxub3z/39433299562_a177a640ce_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/1b7j65567z979nh/39463531931_68210a5b26_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/evi78r3pph4pll2/39433298862_7c8c00893e_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/bt0a3imocr502g0/38584596215_9322afee9e_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/mj9qgsikpckrigd/38754979354_df6df95321_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/ncbsx93wkybx8la/38754910304_aef69fe21d_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/qu6umndhsv91l0w/39432837942_3ced1764ba_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/j9mv7fdhfjykwau/38584896085_902c7fc57b_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/p4z9axbzsiwwhi0/38584595395_372c627a86_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/gbhee3uuz2s909u/27685993839_044ceb0e34_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/b7xzq4quvm8l57c/27686043379_780e27201d_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/m7y6cxuf6wsvzi3/38584590415_7294290a0d_o.jpg?dl=0" class="img-fluid" alt="photo"> -->
+		<img src="https://dl.dropboxusercontent.com/s/pi9yrlk2sinl5ec/38754908784_78b8a11b71_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/9wv8kuwgrd8aycl/38754909604_07e3e4c3ea_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/jijt2i1iue0f143/39433304742_7840311d5a_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/nz1fhe3aedr9suz/39463532511_2a68043fb1_o.jpg?dl=0" class="img-fluid" alt="photo">
+		<img src="https://dl.dropboxusercontent.com/s/40uzoxlxx89x2hj/39432895292_69a535f7c7_o.jpg?dl=0" class="img-fluid" alt="photo">
 	</div>
 	
 	<!-- FOOTER -->
@@ -101,7 +110,7 @@
 		  <div class="row">
 			<div class="copyright col-sm-9">
 			  	<p>
-					&copy 2018 Scully Co-op. All rights reserved. Website by David Wu '19.
+					&copy 2019 Scully Co-op. Website by David Wu '19.
 			  	</p>
 				</div>
 				<div class="icons col-sm-3">
@@ -110,8 +119,10 @@
 				</div>
 			</div>
 		</div>
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
