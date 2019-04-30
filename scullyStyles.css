@@ -97,7 +97,7 @@ footer>.container>.row {
 
 /*--------------------HOME--------------------*/
 #home-body {
-	background-image: url(static/scullyLandingPage.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(static/scully20182019group.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -187,7 +187,7 @@ footer>.container>.row {
 	color: white; /*rgb(90,58,176);*/
 }
 #members-cover-photo {
-	background-image: url(static/membersCoverPhoto.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
+	background-image: url(static/scully20172018group.jpg); /*url(https://source.unsplash.com/xulIYVIbYIc);*/
 	background-size: cover;
 	background-position: 0% 22.75%;
 	margin: 0;
@@ -332,7 +332,7 @@ footer>.container>.row {
 	border-radius: 2px;
 	padding: 0.4rem;
 	margin-bottom: 1rem;
-	transition: 0.7s cubic-bezier(0.25, .8, .25, 1);
+	transition: 2s cubic-bezier(0.25, .8, .25, 1);
 }
 #photos-details-container img:hover {
 	box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .20);
