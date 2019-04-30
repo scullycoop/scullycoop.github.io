@@ -386,6 +386,15 @@ footer>.container>.row {
 .modal-title + p {
 	margin-bottom: 0;
 }
+#recipebook {
+	display: block;
+	margin: 0 auto;
+	border: black 2px solid;
+	margin-top: 20px;
+}
+#recipebookdescription {
+	margin-top: 20px;
+}
 
 /*--------------------AVOCADO--------------------*/
 #avocado-cover-photo>h1 {
