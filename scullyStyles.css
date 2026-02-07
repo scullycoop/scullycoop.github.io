@@ -14,6 +14,20 @@ html {
 	flex-wrap: wrap;
 }
 
+/*--------------------DEPRECATION BANNER--------------------*/
+.deprecation-banner {
+	background-color: #dc3545;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.deprecation-banner a {
+	color: #fff;
+	text-decoration: underline;
+}
+
 /*--------------------NAVBAR--------------------*/
 .navbar {
 	background-color: rgb(34, 34, 34);
@@ -48,22 +62,8 @@ html {
 	color: rgb(90,58,176);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------FOOTER--------------------*/
+
 footer {
 	background-color: #222;
 	color: white;
